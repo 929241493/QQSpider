@@ -1,29 +1,14 @@
-import qqspider
+import zone
+import analyze
+import pyq
 
-if __name__ == '__main__':
-    # init crawler's settings
-    qqspider.init()
+zone.init()
+zone.get_shuoshuo([])
+zone.get_photos([])
 
-    # get friends list
-    qqspider.get_friends_list()
+pyq.get_words()
+pyq.get_photos()
 
-    # get all friends' contents
-    qqspider.get_all_friends_contents()
-
-    # get specified friends' contents
-    qqspider.get_given_friends_contents([''])
-
-    # get specified friends' shuoshuo
-    qqspider.get_shuoshuo([''])
-
-    # get specified friends' photos
-    qqspider.get_photos([''])
-
-    # analyze specified friends' text feel
-    qqspider.get_text_feel('')
-
-    # generate specified friends' word cloud
-    qqspider.get_word_cloud('')
-
-    # generate specified friends' wechat word cloud
-    qqspider.get_wechat_word_cloud()
+analyze.get_text_feel()
+analyze.get_zone_word_cloud()
+analyze.get_pyq_word_cloud()
