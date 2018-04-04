@@ -48,8 +48,8 @@ A python crawler to grab text and pictures from qq zone and wechat moments
     > 词云的stopwords采取了stopwords.txt中的内容
 
 4. Wechat
-    > 微信没有开放网页接口, 爬取部分基于应用内数据的导出
-
+    > 微信没有开放网页接口, 爬取部分基于应用内数据的导出
+    
     > WeChatMomentStat: Android平台下的数据导出工具
     >
     > link: https://github.com/Chion82/WeChatMomentStat-Android
