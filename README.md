@@ -58,7 +58,7 @@ A python crawler to grab text and pictures from qq zone and wechat moments
 
     > 导出的exported_sns.json替换主目录下的同名文件 
 
-    > 朋友圈爬取照片目前只停留在个人阶段. 可以成功爬取他人的照片url, 但是这些url(可能进行了加密处理)目前还无法访问, 如果有时间会继续分析.
+    > 朋友圈爬取照片目前只停留在个人阶段. 可以成功爬取他人的照片url, 但是这些url(可能进行了加密处理)目前还无法访问, 如果有时间会继续分析
 
 ## Usage
 1. zone
